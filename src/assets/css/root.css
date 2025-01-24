@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
+    --primary: #2248af;
+    --primaryLight: #5479d0;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -98,9 +98,18 @@
   .cs-hide-on-desktop {
     display: none;
   }
+  .cs-logo{
+    color: red;
+  }
 }
 /* Fonts and general styles */
 @media only screen and (min-width: 0rem) {
+  .cs-logo{
+    color: rgb(0, 106, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
   body,
   html {
     margin: 0;
@@ -120,6 +129,7 @@
   body {
     transition: background-color 0.3s;
   }
+  
   .container {
     position: relative;
     margin: auto;
