@@ -8,8 +8,8 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #ffba19;
-        --primaryLight: #ffd675;
+        --primary: #2248af;
+        --primaryLight: #5479d0;
         --secondary: #001f3f;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
@@ -25,7 +25,12 @@
         /* 60px - 100px top and bottom */
         --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     }
-
+    .cs-logo{
+        color: rgb(0, 106, 255);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
     // Text styles - can be replaced using CodeStitch's "Content Flair" Stitches
     .cs-topper {
         display: block;
@@ -114,7 +119,12 @@
     .cs-hide-on-mobile {
         display: block;
     }
-
+    .cs-logo{
+        color: rgb(0, 106, 255);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
     .cs-hide-on-desktop {
         display: none;
     }

@@ -20,6 +20,12 @@
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
   }
+  .cs-logo {
+    color: rgb(0, 106, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
   .cs-topper {
     display: block;
     margin-bottom: 0.25rem;
@@ -95,21 +101,18 @@
   .cs-hide-on-mobile {
     display: block;
   }
-  .cs-hide-on-desktop {
-    display: none;
-  }
-  .cs-logo{
-    color: red;
-  }
-}
-/* Fonts and general styles */
-@media only screen and (min-width: 0rem) {
-  .cs-logo{
+  .cs-logo {
     color: rgb(0, 106, 255);
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 900;
   }
+  .cs-hide-on-desktop {
+    display: none;
+  }
+}
+/* Fonts and general styles */
+@media only screen and (min-width: 0rem) {
   body,
   html {
     margin: 0;
@@ -129,7 +132,6 @@
   body {
     transition: background-color 0.3s;
   }
-  
   .container {
     position: relative;
     margin: auto;
