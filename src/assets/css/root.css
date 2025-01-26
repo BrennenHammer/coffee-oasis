@@ -21,9 +21,9 @@
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
   }
   .cs-logo {
-    color: rgb(0, 106, 255);
+    color: #2248af;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 900;
   }
   .cs-topper {
@@ -102,9 +102,9 @@
     display: block;
   }
   .cs-logo {
-    color: rgb(0, 106, 255);
+    color: #2248af;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 900;
   }
   .cs-hide-on-desktop {
